@@ -26,6 +26,18 @@ const trabalhos = [
     "bibtex": "@mastersthesis{matias2025,\n  title={Estudo de um sistema de geração fotovoltaica conectado à rede elétrica de média tensão},\n  author={Matias, Lucas Hahn Barbosa de Oliveira},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2025},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
   {
+    "titulo": "Implementação de Controle PID via Controlador Lógico Programável Integrado a Inversor de Frequência",
+    "tipo": "Projeto de Graduação",
+    "autor": "Rafael Fernandes Araujo e Lucas Dourado Lemos",
+    "orientador": "Otto Wanner Ganvini Asencios e Cleiton Magalhães Freitas",
+    "ano": 2024,
+    "resumo": "O objetivo do trabalho é o controle da pressão de um sistema hidráulico através do acionamento de uma bomba em função da abertura e do fechamento da válvula do sistema. Assim, é feita uma implementação de técnica de controle de malha fechada, nesse caso, o controlador PID (Proporcional, Integral e Derivativo), com a utilização de um Controlador Lógico Programável integrado a um Inversor de Frequência. Este conjunto ajusta automaticamente as variáveis do sistema para manter o nível de pressão desejado, com o objetivo de manter a estabilidade do processo. O projeto inicia-se com uma abordagem teórica sobre os componentes do projeto, logo após é abordada suas características físicas e elétricas, tal como suas particularidades e aplicações. Em seguida, é demonstrado como foi colocado em prática o controle PID aplicado ao sistema presente no laboratório da UERJ, informando detalhadamente as parametrizações utilizadas para os acionamentos definidos. Os testes experimentais validam o desenvolvimento do projeto para que seja feito o controle PID.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fronalpstock_big.jpg/400px-Fronalpstock_big.jpg",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=25015&tipoMidia=0",
+    "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/357733",
+    "bibtex": "@mastersthesis{araujo2024,\n  title={Implementação de Controle PID via Controlador Lógico Programável Integrado a Inversor de Frequência},\n  author={Araujo, Rafael Fernandes and Lemos, Lucas Dourado},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2024},\n  type={Trabalho de Conclusão de Curso (Graduação)}\n}"
+  },
+  {
     "titulo": "Análises de falhas nos sistemas HVDC compostos por conversores modulares multiníveis controlados como fonte de tensão e como fonte de corrente",
     "tipo": "Dissertação de Mestrado",
     "autor": "Guilherme Henrique C. do Nascimento",
@@ -45,7 +57,7 @@ const trabalhos = [
     "ano": 2024,
     "resumo": "Este trabalho apresenta a avaliação do desempenho no aprimoramento da estabilidade de tensão por meio de dois dispositivos: o Static Var Compensator (SVC) e o Static Synchronous Compensator (STATCOM). A análise é realizada com base no suporte dinâmico de compensação de potência reativa. Os modelos apropriados para observar o comportamento dinâmico de cada um desses dispositivos FACTS (Flexible AC Transmission Systems) são discutidos em detalhe, incluindo os controles de tensão a serem acionados durante um distúrbio severo no sistema teste. Para tal fim, é utilizada uma rede equivalente do Sistema Interligado Nacional (SIN) com foco na região leste do Maranhão, operando em 230 kV. A área elétrica de interesse foi escolhida com base em um estudo realizado pela Empresa de Pesquisa Energética (EPE), que identificou a necessidade de utilizar um dispositivo rápido de compensação de potência reativa, sem definir o tipo específico de equipamento a ser utilizado. A rede elétrica equivalente e os dispositivos escolhidos para comparação foram modelados no software PSIM incluindo os controles de tensão, para observar o desempenho durante um curto-circuito simulado nas barras do sistema teste. Diversas métricas foram utilizadas para avaliar o desempenho de ambos os dispositivos no suporte de potência reativa durante um distúrbio severo. Entre os quais: o tempo de assentamento, utilizando o critério de 2% de tolerância do valor de regime permanente, o monitoramento do afundamento de tensão nos casos sem suporte de potência reativa, com compensação de potência reativa por SVC e por STATCOM e; o monitoramento da potência reativa liquida transferida por cada equipamento para a rede elétrica.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=26059&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/391339",
     "bibtex": "@mastersthesis{santosrocha2024,\n  title={Estudo Comparativo de SVC e STATCOM em Redes Elétricas para o Aprimoramento da Estabilidade de Tensão},\n  author={Santos, Jefferson B. C. N. G. dos and Rocha, Washington B. M. da},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2024},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -57,7 +69,7 @@ const trabalhos = [
     "ano": 2024,
     "resumo": "O motor de relutância síncrona é uma máquina cujo estator se assemelha ao de uma máquina de indução, mas que o rotor não possui condutores, apenas uma geometria que permite o surgimento do torque de relutância. Como diferencial, este tipo de máquina possui menores perdas e maior densidade volumétrica de potência, quando comparadas 'as tradicionais máquinas de indução. O objetivo deste estudo é simular um motor de relutância síncrona utilizando o método de simulação de elementos finitos no programa FEMM 4.2. Para isso, foi proposta uma máquina genérica com quatro polos e 36 slots de bobinas no estator e um rotor com configuração de laminação axial. Os resultados de simulação permitiram obter as indutâncias próprias e mútuas da máquina, a característica de torque eletromagnético, o padrão de campo magnético espacial e o comportamento geral do campo magnético no sistema.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=25103&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/358015",
     "bibtex": "@mastersthesis{graciano2024,\n  title={Estudo De Um Motor De Relutância Síncrona Pelo Método Dos Elementos Finitos},\n  author={Graciano, Caio Alexandre da Trindade},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2024},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -69,7 +81,7 @@ const trabalhos = [
     "ano": 2023,
     "resumo": "O presente trabalho aborda o tema do controle de bombeamento controlado, explorando como é possível otimizar a eficiência e a precisão desse processo fundamental em diversas áreas da engenharia. O foco principal reside na implementação de técnicas de controle em malha fechada, mais especificamente no uso de controladores PID (Proporcional, Integral e Derivativo). Esses controladores ajustam automaticamente as variáveis do sistema para manter um valor de pressão desejado. O estudo inicia-se com uma revisão abrangente dos temas teóricos de motor de indução, inversor de frequência e de bombeamento, destacando a importância desses componentes em sistemas hidráulicos, de abastecimento de água, agricultura e processos industriais. Em seguida, é demostrado como foi colocado em prática um sistema de bombeamento controlado no laboratório da UERJ, informando o passo a passo da parametrização e acionamento do sistema. Testes são partes integrantes do desenvolvimento, permitindo ajustes finos e validação do desempenho do sistema controlado.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "http://drive.google.com/uc?export=download&id=1ka2k4V0m6pnhfBqaq0czjuwrDQBnVgKA",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=21785&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/348202",
     "bibtex": "@mastersthesis{ferreira2023,\n  title={Aplicação de um sistema de bombeamento controlado por inversor de frequência e controle PID},\n  author={Ferreira, Gabriel Correa},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2023},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -81,7 +93,7 @@ const trabalhos = [
     "ano": 2023,
     "resumo": "Este projeto tem como finalidade o estudo de implementação de ensaios envolvendo acionamento de motores de indução através de inversores de frequência. Foram realizados cinco ensaios com acionamento do motor de indução. O primeiro teve objetivo de comparar a corrente de partida do acionamento com inversor de frequência e a partida estrela-triângulo. O segundo ensaio foi usado a função da rampa de aceleração e desaceleração do inversor para torque constante. No terceiro ensaio foi utilizado o levantamento da curva para torque reduzido. O quarto ensaio foi usado para aplicação do filtro LC a fim de amenizar os harmônicos de tensão e corrente presentes no inversor. O último ensaio foi realizado para verificar o rendimento do motor com aplicação de filtro LC e sem filtro LC.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=20341&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/344625",
     "bibtex": "@mastersthesis{silvabatista2023,\n  title={Controle de Velocidade de Motores de Indução Trifásico Por Meio de Inversores de Frequência},\n  author={Silva, André A. A. da and Batista, Nayara S. R.},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2023},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -93,7 +105,7 @@ const trabalhos = [
     "ano": 2023,
     "resumo": "Este projeto apresenta características e aplicações de controladores lógicos programáveis (CLP’s), explicitando sua importância nas indústrias modernas e diferentes utilizações em sistemas de automação industrial. Foi projetado um sistema estrela-triângulo para partida de motores de indução e monitoramento em tempo real da tensão nos terminais da máquina através de supervisório, com a utilização de um CLP. Foi utilizado um CLP da marca WEG para controle e partida de um motor de indução trifásico, partindo pelo método estrela-triângulo projetado no controlador. Através do software ScadaBR, foi projetado um supervisório e feita a comunicação com o CLP através do protocolo ModBus. Para a leitura dos parâmetros da máquina, foram utilizados transdutores de tensão e corrente.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=16825&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/319677",
     "bibtex": "@mastersthesis{rezende2023,\n  title={Monitoramento de Parâmetros de Motores de Indução através de CLPs},\n  author={Rezende, Mateus da Costa},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2023},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -105,7 +117,7 @@ const trabalhos = [
     "ano": 2021,
     "resumo": "Este projeto apresenta o cálculo dos parâmetros longitudinais e transversais de um sistema de cabos coaxiais de transmissão subterrânea. É utilizada a formulação aproximada das impedâncias encontrada na tese de mestrado do professor Paulo Eduardo Darski Rocha. Esse estudo foi desenvolvido através da ferramenta Scilab que é um programa computacional gratuito disponível na internet. A validação do cálculo foi feita utilizando um artigo científico respeitado, que correlacionou os cálculos dos parâmetros da impedância interna do núcleo e da blindagem, com a impedância devida à variação do campo magnético na primeira camada isolante, usando seus respectivos parâmetros de entrada. Para a comparação dos gráficos, contamos com o apoio do software WebPlotDigitizer para a exportação dos pontos do resultado obtido.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=18404&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/323799",
     "bibtex": "@mastersthesis{assisferreira2021,\n  title={Cálculo de parámetros de sistemas de cabos subterrâneos através da ferramenta Scilab},\n  author={Assis, Alana Campos de and Ferreira, Juliana Chaves},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2021},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -117,7 +129,7 @@ const trabalhos = [
     "ano": 2021,
     "resumo": "Este trabalho apresenta o controle de velocidade de um motor de corrente contínua operando em quatro quadrantes de operação. Tendo como objetivo principal simulação envolvendo uma máquina CC, conversor bidirecional de potência e sistema de controle de velocidade. No presente trabalho são apresentadas duas abordagens de controle (malha simples de realimentação e malha dupla), a obtenção da função de transferência do sistema. As análises dos efeitos de parâmetros de controle da máquina. Assim como a análise do comportamento do sistema diante de variações bruscas de velocidade. ",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=18402&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/323797",
     "bibtex": "@mastersthesis{costa2021,\n  title={Controle de velocidade de motor CC em quatro quadrantes},\n  author={Costa, Victor Dias},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2021},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -129,7 +141,7 @@ const trabalhos = [
     "ano": 2021,
     "resumo": "Este trabalho tem como objetivo projetar um sistema de controle de velocidade fazendo inicialmente uso da técnica de controle escalar SPWM, como forma de introdução e preparação a respeito das técnicas de controle, após isso, a aplicação da técnica de controle vetorial chamada Direct Torque Control (DTC). O sistema de controle vetorial por DTC é composto por: inversor de dois níveis, controle de estimação de grandezas e uma tabela de chaveamento do conversor. O inversor de dois níveis produz as tensões de alimentação da máquina, uma vez que ele recebe os sinais e variáveis específicas através da rede e do sistema de controle. O controle de estimação de grandezas consiste em um sistema que vai estimar o fluxo magnético da máquina, além de medir o torque de saída da máquina em tempo real, com isso, tanto o fluxo magnético quanto o torque são utilizados em um sistema de realimentação. A tabela de chaveamento do conversor complementa o processo de modulação vetorial, fornecendo grandezas específicas para alimentar o motor de forma tal que o controle seja feito com precisão.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://drive.google.com/file/d/1mP58zTWKin8S2EwbssPl4c0o6sH2E4Mm/view?usp=sharing",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=19062&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/325801",
     "bibtex": "@mastersthesis{moreiracoimbra2021,\n  title={Controle de velocidade de motor de indução utilizando Direct Torque Control},\n  author={Moreira, Gabriel da Silva and Coimbra, Guilherme Antonio Porto},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2021},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -141,7 +153,7 @@ const trabalhos = [
     "ano": 2021,
     "resumo": "No trabalho será apresentado o desenvolvimento de uma plataforma de análise de qualidade de energia para sistemas monofásicos e trifásicos a três fios, contendo funções que calculam as seguintes indicadores: distorções harmônicas, fator de deslocamento e fator de desequilíbrio. Para realizar os cálculos de distorções harmônicas e fator de des locamento á utilizado o algoritmo de transformada rápida de Fourier (FFT). O trabalho foca na captura de dados de tensão e corrente atravás de uma plataforma eletrônica microcontrolada, envio dos dados para o computador via comunicação serial e apresentação dos resultados para o usu 'ario em uma interface gr 'afica projetado em linguagem C#.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=18397&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/323776",
     "bibtex": "@mastersthesis{silva2021,\n  title={Desenvolvimento de um analisador de qualidade de energia},\n  author={Silva, Renan Machado da},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2021},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -153,7 +165,7 @@ const trabalhos = [
     "ano": 2021,
     "resumo": "Este presente projeto apresenta o estudo e aplicação de técnicas de controle de tensão CC/CA de inversores do tipo isolado, utilizados em regiões sem acesso à rede elétrica e com aplicações voltadas para energias renováveis. Inicialmente, foi feita uma revisão de conceitos referentes às modelagens propostas para este tipo conversor, com a finalidade de identificar as melhores configurações para geração de energia. Foram efetuadas simulações, com o software MATLAB, no circuito inversor monofásico em ponte completa, constituído por uma fonte de corrente contínua, semicondutores e um filtro passivo em sua saída, com diferentes tipos de cargas, para determinar os parâmetros do controlador P, PI, SRFPI e Ressonante que resultassem nas melhores respostas. As melhores configurações indicaram distorções harmônicas de tensão menores que 5%. ",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "http://drive.google.com/uc?export=download&id=147ImGw1xJkyajqV8qkD6Cu7-YyPn-toN",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=16897&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/320862",
     "bibtex": "@mastersthesis{barroso2021,\n  title={Metodologias de controle de inversores isolados},\n  author={Barroso, Marllon Xavier},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2021},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -165,7 +177,7 @@ const trabalhos = [
     "ano": 2020,
     "resumo": "Neste estudo, a plataforma de prototipagem eletrônica Arduino é aplicada para fornecer o controlador proporcional-integral-derivativo (PID) para o sistema regulador Automático de Tensão (AVR). O foco desse sistema é regular a tensão terminal do gerador síncrono de um projeto de simulação em laboratório, a fim de fornecer constância e estabilidade ao valor da tensão. Com o controlador PID, é possível obter uma resposta satisfatória na regulagem da tensão, sendo ajustes nos parâmetros PID necessários para a otimização do tempo de resposta. O regulador automático de Tensão irá multiplicar as capacidades do laboratório de máquinas. Proporcionando uma nova gama de possibilidades para o ensino de novos alunos.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "http://drive.google.com/uc?export=download&id=1rzwQK74Z_1RrQoVydKc6HyIcmAUKduEM",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=17281&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/322652",
     "bibtex": "@mastersthesis{krause2020,\n  title={Estudo de implementação de um AVR para máquinas síncronas em laboratório},\n  author={Krause, Bruno},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2020},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -177,7 +189,7 @@ const trabalhos = [
     "ano": 2020,
     "resumo": "O presente trabalho consiste sobre o Conversor Modular Multinível (CMM), incluindo simulações de uma topologia CMM trifásica de nove níveis e a implementação de uma bancada de células conversoras. Inicialmente, foi realizado um estudo sobre os principais conversores multinível, incluindo suas topologias e aplicações. Em seguida, simulações CMM foram realizadas através de casos de teste, analisando seu comportamento, incluindo o problema de balanceamento das tensões do lado CC. Nessas simulações, foram utilizadas as topologias compostas por 4 células conectadas em série, nas suas versões monofásica e trifásica. Finalmente, os experimentos foram realizados com uma célula do CMM.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "http://drive.google.com/uc?export=download&id=1Y7BxEmj8bA7aNQ2RiJ_aqmt6zVk3eWCS",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=16783&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/319450",
     "bibtex": "@mastersthesis{santos2020,\n  title={Estudo Do Conversor Modular Multinível},\n  author={Santos, Israel Batista dos},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2020},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -189,7 +201,7 @@ const trabalhos = [
     "ano": 2020,
     "resumo": "Este trabalho tem como objetivo projetar o sistema de controle vetorial de uma máaquina síncrona de imã permanente aplicada à geração eólica. O sistema de controle é composto por: controle de corrente, controle de tensão e controle de velocidade. O controle de corrente é responsável por entregar potência à rede elétrica e garantir fator de potência unitário. O controle de tensão é responsável por garantir tensão constante no barramento CC do conversor. O controle de velocidade tem como função ajustar a velocidade de rotação da máquina de modo que esta opere em seu ponto de máxima potência. A máquina em questão está acoplada a uma turbina eólica de velocidade variável e a um conversor Back-to-Back, que interliga os terminais do estator à rede de energia elétrica.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "http://drive.google.com/uc?export=download&id=1ml5zRSW3jZjYVNIOzbH01v22Ausesd5-",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=16749&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/319322",
     "bibtex": "@mastersthesis{souzaporto2020,\n  title={Proposta de Controle de um Gerador Síncrono de Imãs Permanentes para Aplicação em Geração Eólica},\n  author={Souza, Felipe Gomes da Silva and Porto, Kevin Cunha},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2020},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -201,7 +213,7 @@ const trabalhos = [
     "ano": 2020,
     "resumo": "Este trabalho apresenta uma proposta de um sistema CC-CA com a função de realizar o acoplamento com redes elétricas monofásicas CA. O sistema garante que os módulos fotovoltaicos operem no ponto de máxima potência, através do método Perturbar e Observar. A manutenção da tensão do barramento CC e da corrente injetada na rede é realizada por meio de um sistema de controle projetado.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "http://drive.google.com/uc?export=download&id=1iVZjjuk0auJV9XgSVS0B6I4p1Ppi6CLp",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=17857&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/323361",
     "bibtex": "@mastersthesis{martins2020,\n  title={Proposta de um sistema CC-CA para realizar o acoplamento elétrico eficiente entre módulos fotovoltaicos e redes elétricas monofásicas},\n  author={Martins, Gustavo Soares},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2020},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -213,7 +225,7 @@ const trabalhos = [
     "ano": 2020,
     "resumo": "Este trabalho apresenta a montagem e o desenvolvimento de um sistema para acionamento e monitoramento de motores de indução durante seu funcionamento. Nas seções que seguem, serão apresentados em detalhes o projeto e a montagem do sistema. O sistema é dividido em duas partes: hardware, referente a toda a parte física do sistema que pode ser tocada, e software, que corresponde à interface gráfica utilizada para o acionamento do sistema. Inclui-se a montagem de um conversor CC/CA para acionamento do motor, um sistema de aquisição de dados para coletar informações da máquina e uma interface gráfica na qual são apresentados os valores medidos e os controles para acionamento.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "http://drive.google.com/uc?export=download&id=1G3koZOlVUP5aw22EaFDhbAKMiZR1RHke",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=18270&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/323635",
     "bibtex": "@mastersthesis{silvamarques2020,\n  title={Sistema de Monitoramento e Acionamento Computadorizado de um Motor de Indução},\n  author={Silva, Alexandre Antônio Assis and Marques, Anderson Dursulina},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2020},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -249,7 +261,7 @@ const trabalhos = [
     "ano": 2019,
     "resumo": "Módulos fotovoltaicos são fontes de geração de energia elétrica de baixa eficiência, exigindo grandes áreas para produção aproveitável e sendo altamente suscetíveis a variações climáticas que afetam diretamente sua geração. Com a crescente demanda energética e o protagonismo da energia solar entre as fontes renováveis, torna-se essencial o desenvolvimento de pesquisas para aprofundar o entendimento desses sistemas. A eletrônica de potência surge como grande aliada, permitindo a criação de emuladores que reproduzem o comportamento físico dos módulos fotovoltaicos. Este trabalho propõe o projeto de um emulador eletrônico analógico de baixo custo e alta performance, capaz de emular com precisão as curvas I-V e P-V características de arranjos fotovoltaicos, apresentando baixa inércia elétrica, flexibilidade, simplicidade topológica e robustez. Destinado ao ensino e pesquisa, o emulador permite análises sistemáticas de sistemas conectados à rede e estudos de desempenho de inversores, incluindo o desenvolvimento de um protótipo para avaliações qualitativas, comparativas e de custo. O projeto será detalhado nas seções seguintes, com resultados experimentais que comprovam sua viabilidade.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=16273&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/315733",
     "bibtex": "@mastersthesis{santiago2019,\n  title={Emulador Operacional de Unidade Geradora Fotovoltaica},\n  author={Santiago, Raphael Perci},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -261,7 +273,7 @@ const trabalhos = [
     "ano": 2019,
     "resumo": "A tecnologia de microinversores fotovoltaicos se encontra em expansão acelerada de mercado, apesar de ainda ser emergente no Brasil. Os microinversores permitem a operação individual de cada módulo fotovoltaico no ponto de máxima potência, aumentam a confiabilidade e durabilidade do projeto, viabilizam instalações em áreas com sombreamento parcial, aumentam a eficiência global do sistema e proporcionam mais segurança, ampliando assim as possibilidades de geração distribuída para unidades residenciais e comerciais. Este trabalho tem como objetivo realizar um estudo de quatro topologias de microinversores fotovoltaicos através de desenvolvimento matemático, dimensionamento de componentes, simulação e elaboração de tabelas comparativas. São abordadas as vantagens e limitações de cada circuito, apresentando ao final da análise as topologias consideradas mais promissoras.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=16306&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/316219",
     "bibtex": "@mastersthesis{azevedo2019,\n  title={Estudo da Tecnologia de Microinversores para Sistemas Fotovoltaicos},\n  author={Azevedo, Marcos Vinicius Koebcke de Magalhães Couto},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
@@ -285,9 +297,21 @@ const trabalhos = [
     "ano": 2019,
     "resumo": "ste trabalho consistiu na modelagem, com algumas simplificações, do sistema de transmissão em corrente contínua com conversores de 12 pulsos apresentando comutação natural de linha. Para a simulação, modelaram-se os componentes principais do sistema: rede CA, filtros CA, linha de transmissão CC, conversores e as malhas de controle principais. O software utilizado para simulação foi o PSIM, que apresentou o comportamento do sistema em regime permanente, transitório e dinâmico, incluindo também a atuação das malhas de controle em condição normal de operação e sob falha no sistema.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=16302&tipoMidia=0",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/316190",
     "bibtex": "@mastersthesis{sobrinho2019,\n  title={Modelagem e simulação de um sistema CCAT},\n  author={Sobrinho, Leonardo de França},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
+  },
+  {
+    "titulo": "Projeto e construção de um módulo de levitação magnética para aerogerador vertical",
+    "tipo": "Projeto de Graduação",
+    "autor": "Wagner Ribeiro Gomes e Raphael Silva Samagaio",
+    "orientador": "Otto Wanner Ganvini Asencios e Cleiton Magalhães Freitas",
+    "ano": 2019,
+    "resumo": "Este trabalho tem o propósito de iniciar uma linha de pesquisa para aperfeiçoamento de uma turbina eólica vertical, através da introdução de uma base de levitação magnética na construção de uma turbina eólica de eixo vertical. Utilizando o método dos elementos finitos por intermédio do programa COMSOL Multiphysics R, este projeto será focado nos aspectos construtivos do modelo de turbina vertical, buscando uma futura otimização de suas respectivas perdas mecânicas por meios aqui estabelecidos. Assim, um mesmo aerogerador poderá ser instalado em locais onde antes não poderia, pois será necessário uma velocidade média de vento menor para que haja seu devido funcionamento. Precedido pelo projeto "Estudos de levitação magnética de uma turbina eólica de eixo vertical utilizando elementos finitos, que serviu de base para nosso estudo e desenvolvimento. Após, virão outros projetos que, juntos, somarão um gerador eólico vertical com rendimento de sua geração de energia otimizado, evitando perdas mecnicas e fazendo maior aproveitamento da energia cinética dos ventos.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+    "link": "https://drive.google.com/file/d/1m-sHUtEzPWLiM_1zhg83W9nwvCWb08lZ/view",
+    "site": "https://exemplo.com/trabalho",
+    "bibtex": "@mastersthesis{pereira2018,\n  title={Acionamento e controle escalar de motor de indução através de conversor back-to-back},\n  author={Pereira, Paulo César Pontini},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
   {
     "titulo": "Acionamento e controle escalar de motor de indução através de conversor back-to-back",
