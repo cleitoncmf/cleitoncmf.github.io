@@ -313,18 +313,18 @@ const trabalhos = [
     "site": "https://exemplo.com/trabalho",
     "bibtex": "@mastersthesis{pereira2018,\n  title={Acionamento e controle escalar de motor de indução através de conversor back-to-back},\n  author={Pereira, Paulo César Pontini},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
-  // {
-  //   "titulo": "Acionamento e controle escalar de motor de indução através de conversor back-to-back",
-  //   "tipo": "Projeto de Graduação",
-  //   "autor": "Paulo César Pontini Pereira",
-  //   "orientador": "Cleiton Magalhães Freitas",
-  //   "ano": 2018,
-  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-  //   "link": "https://drive.google.com/file/d/1m-sHUtEzPWLiM_1zhg83W9nwvCWb08lZ/view",
-  //   "site": "https://exemplo.com/trabalho",
-  //   "bibtex": "@mastersthesis{pereira2018,\n  title={Acionamento e controle escalar de motor de indução através de conversor back-to-back},\n  author={Pereira, Paulo César Pontini},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
-  // },
+  {
+    "titulo": "Acionamento e controle escalar de motor de indução através de conversor back-to-back",
+    "tipo": "Projeto de Graduação",
+    "autor": "Paulo César Pontini Pereira",
+    "orientador": "Cleiton Magalhães Freitas",
+    "ano": 2018,
+    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+    "link": "https://drive.google.com/file/d/1m-sHUtEzPWLiM_1zhg83W9nwvCWb08lZ/view",
+    "site": "https://exemplo.com/trabalho",
+    "bibtex": "@mastersthesis{pereira2018,\n  title={Acionamento e controle escalar de motor de indução através de conversor back-to-back},\n  author={Pereira, Paulo César Pontini},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
+  },
   {
     "titulo": "Desenvolvimento de um conversor digital analógico multicanal com interface serial com o computador",
     "tipo": "Projeto de Graduação",
