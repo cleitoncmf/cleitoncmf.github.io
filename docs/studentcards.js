@@ -69,7 +69,7 @@ const trabalhos = [
     "ano": 2024,
     "resumo": "O motor de relutância síncrona é uma máquina cujo estator se assemelha ao de uma máquina de indução, mas que o rotor não possui condutores, apenas uma geometria que permite o surgimento do torque de relutância. Como diferencial, este tipo de máquina possui menores perdas e maior densidade volumétrica de potência, quando comparadas 'as tradicionais máquinas de indução. O objetivo deste estudo é simular um motor de relutância síncrona utilizando o método de simulação de elementos finitos no programa FEMM 4.2. Para isso, foi proposta uma máquina genérica com quatro polos e 36 slots de bobinas no estator e um rotor com configuração de laminação axial. Os resultados de simulação permitiram obter as indutâncias próprias e mútuas da máquina, a característica de torque eletromagnético, o padrão de campo magnético espacial e o comportamento geral do campo magnético no sistema.",
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=25103&tipoMidia=0",
+    "link": "https://catalogo-redesirius.uerj.br/TerminalWeb/VisualizadorPdf?codigoArquivo=25103",
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/358015",
     "bibtex": "@mastersthesis{graciano2024,\n  title={Estudo De Um Motor De Relutância Síncrona Pelo Método Dos Elementos Finitos},\n  author={Graciano, Caio Alexandre da Trindade},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2024},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
