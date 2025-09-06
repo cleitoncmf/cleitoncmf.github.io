@@ -1,30 +1,30 @@
 // js/cards.js
 
 const trabalhos = [
-  {
-    "titulo": "Estudo de um sistema de geração eólica com uso de máquina de indução de dupla alimentação",
-    "tipo": "Projeto de Graduação",
-    "autor": "Pedro Igor Fabrini",
-    "orientador": "Cleiton Magalhães Freitas",
-    "ano": 2025,
-    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fronalpstock_big.jpg/400px-Fronalpstock_big.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
-    "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{fabrini2025,\n  title={Estudo de um sistema de geração eólica com uso de máquina de indução de dupla alimentação},\n  author={Fabrini, Pedro Igor},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2025},\n  type={Trabalho de Conclusão de Curso}\n}"
-  },
-  {
-    "titulo": "Estudo de um sistema de geração fotovoltaica conectado à rede elétrica de média tensão",
-    "tipo": "Projeto de Graduação",
-    "autor": "Lucas Hahn Barbosa de Oliveira Matias",
-    "orientador": "Cleiton Magalhães Freitas e Luís Fernando Corrêa Monteiro",
-    "ano": 2025,
-    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
-    "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{matias2025,\n  title={Estudo de um sistema de geração fotovoltaica conectado à rede elétrica de média tensão},\n  author={Matias, Lucas Hahn Barbosa de Oliveira},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2025},\n  type={Trabalho de Conclusão de Curso}\n}"
-  },
+  // {
+  //   "titulo": "Estudo de um sistema de geração eólica com uso de máquina de indução de dupla alimentação",
+  //   "tipo": "Projeto de Graduação",
+  //   "autor": "Pedro Igor Fabrini",
+  //   "orientador": "Cleiton Magalhães Freitas",
+  //   "ano": 2025,
+  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fronalpstock_big.jpg/400px-Fronalpstock_big.jpg",
+  //   "link": "https://exemplo.com/trabalho.pdf",
+  //   "site": "https://exemplo.com/trabalho",
+  //   "bibtex": "@mastersthesis{fabrini2025,\n  title={Estudo de um sistema de geração eólica com uso de máquina de indução de dupla alimentação},\n  author={Fabrini, Pedro Igor},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2025},\n  type={Trabalho de Conclusão de Curso}\n}"
+  // },
+  // {
+  //   "titulo": "Estudo de um sistema de geração fotovoltaica conectado à rede elétrica de média tensão",
+  //   "tipo": "Projeto de Graduação",
+  //   "autor": "Lucas Hahn Barbosa de Oliveira Matias",
+  //   "orientador": "Cleiton Magalhães Freitas e Luís Fernando Corrêa Monteiro",
+  //   "ano": 2025,
+  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+  //   "link": "https://exemplo.com/trabalho.pdf",
+  //   "site": "https://exemplo.com/trabalho",
+  //   "bibtex": "@mastersthesis{matias2025,\n  title={Estudo de um sistema de geração fotovoltaica conectado à rede elétrica de média tensão},\n  author={Matias, Lucas Hahn Barbosa de Oliveira},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2025},\n  type={Trabalho de Conclusão de Curso}\n}"
+  // },
   {
     "titulo": "Implementação de Controle PID via Controlador Lógico Programável Integrado a Inversor de Frequência",
     "tipo": "Projeto de Graduação",
@@ -229,30 +229,30 @@ const trabalhos = [
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/323635",
     "bibtex": "@mastersthesis{silvamarques2020,\n  title={Sistema de Monitoramento e Acionamento Computadorizado de um Motor de Indução},\n  author={Silva, Alexandre Antônio Assis and Marques, Anderson Dursulina},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2020},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
-  {
-    "titulo": "Análise de Falhas de Comutação em Sistemas Multi-Infeed no Regime Transitório Eletromecânico",
-    "tipo": "Projeto de Graduação",
-    "autor": "Vinicius Gonçalves Lopes",
-    "orientador": "Cleiton Magalhães Freitas",
-    "ano": 2019,
-    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://drive.google.com/file/d/1MJAC_CdRL8u9vNG-qmPB467fQFGqQI6T/view",
-    "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{lopes2019,\n  title={Análise de Falhas de Comutação em Sistemas Multi-Infeed no Regime Transitório Eletromecânico},\n  author={Lopes, Vinicius Gonçalves},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
-  },
-  {
-    "titulo": "Concepção de uma microrrede CC para interface de sistemas de geração fotovoltaica com a rede CA",
-    "tipo": "Projeto de Graduação",
-    "autor": "Jessica de Andrade Lemos e Victor Hochleitner Neves",
-    "orientador": "Cleiton Magalhães Freitas",
-    "ano": 2019,
-    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://drive.google.com/file/d/12k8MfiKzqTqW456OAd9CQ2JOi8wwXHqs/view",
-    "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{lemosneves2019,\n  title={Concepção de uma microrrede CC para interface de sistemas de geração fotovoltaica com a rede CA},\n  author={Lemos, Jessica de Andrade and Neves, Victor Hochleitner},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
-  },
+  // {
+  //   "titulo": "Análise de Falhas de Comutação em Sistemas Multi-Infeed no Regime Transitório Eletromecânico",
+  //   "tipo": "Projeto de Graduação",
+  //   "autor": "Vinicius Gonçalves Lopes",
+  //   "orientador": "Cleiton Magalhães Freitas",
+  //   "ano": 2019,
+  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+  //   "link": "https://drive.google.com/file/d/1MJAC_CdRL8u9vNG-qmPB467fQFGqQI6T/view",
+  //   "site": "https://exemplo.com/trabalho",
+  //   "bibtex": "@mastersthesis{lopes2019,\n  title={Análise de Falhas de Comutação em Sistemas Multi-Infeed no Regime Transitório Eletromecânico},\n  author={Lopes, Vinicius Gonçalves},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
+  // },
+  // {
+  //   "titulo": "Concepção de uma microrrede CC para interface de sistemas de geração fotovoltaica com a rede CA",
+  //   "tipo": "Projeto de Graduação",
+  //   "autor": "Jessica de Andrade Lemos e Victor Hochleitner Neves",
+  //   "orientador": "Cleiton Magalhães Freitas",
+  //   "ano": 2019,
+  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+  //   "link": "https://drive.google.com/file/d/12k8MfiKzqTqW456OAd9CQ2JOi8wwXHqs/view",
+  //   "site": "https://exemplo.com/trabalho",
+  //   "bibtex": "@mastersthesis{lemosneves2019,\n  title={Concepção de uma microrrede CC para interface de sistemas de geração fotovoltaica com a rede CA},\n  author={Lemos, Jessica de Andrade and Neves, Victor Hochleitner},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
+  // },
   {
     "titulo": "Emulador Operacional de Unidade Geradora Fotovoltaica",
     "tipo": "Projeto de Graduação",
@@ -313,18 +313,18 @@ const trabalhos = [
     "site": "https://exemplo.com/trabalho",
     "bibtex": "@mastersthesis{pereira2018,\n  title={Acionamento e controle escalar de motor de indução através de conversor back-to-back},\n  author={Pereira, Paulo César Pontini},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
-  {
-    "titulo": "Acionamento e controle escalar de motor de indução através de conversor back-to-back",
-    "tipo": "Projeto de Graduação",
-    "autor": "Paulo César Pontini Pereira",
-    "orientador": "Cleiton Magalhães Freitas",
-    "ano": 2018,
-    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://drive.google.com/file/d/1m-sHUtEzPWLiM_1zhg83W9nwvCWb08lZ/view",
-    "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{pereira2018,\n  title={Acionamento e controle escalar de motor de indução através de conversor back-to-back},\n  author={Pereira, Paulo César Pontini},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
-  },
+  // {
+  //   "titulo": "Acionamento e controle escalar de motor de indução através de conversor back-to-back",
+  //   "tipo": "Projeto de Graduação",
+  //   "autor": "Paulo César Pontini Pereira",
+  //   "orientador": "Cleiton Magalhães Freitas",
+  //   "ano": 2018,
+  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+  //   "link": "https://drive.google.com/file/d/1m-sHUtEzPWLiM_1zhg83W9nwvCWb08lZ/view",
+  //   "site": "https://exemplo.com/trabalho",
+  //   "bibtex": "@mastersthesis{pereira2018,\n  title={Acionamento e controle escalar de motor de indução através de conversor back-to-back},\n  author={Pereira, Paulo César Pontini},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
+  // },
   {
     "titulo": "Desenvolvimento de um conversor digital analógico multicanal com interface serial com o computador",
     "tipo": "Projeto de Graduação",
@@ -337,40 +337,40 @@ const trabalhos = [
     "site": "https://exemplo.com/trabalho",
     "bibtex": "@mastersthesis{pontes2018,\n  title={Desenvolvimento de um conversor digital analógico multicanal com interface serial com o computador},\n  author={Pontes, Estephan David da Silva Rezende},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
-  {
-    "titulo": "Análise do Efeito da Má Qualidade de Energia no Motor de Indução Trifásico com Rotor do Tipo Gaiola de Esquilo",
-    "tipo": "Projeto de Graduação",
-    "autor": "Nathã de Souza Lopes, Jadson dos Santos Matos",
-    "orientador": "Cleiton Magalhães Freitas",
-    "ano": 2017,
-    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://exemplo.com/trabalho.pdf",
-    "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{lopesmatos2017,\n  title={Análise do Efeito da Má Qualidade de Energia no Motor de Indução Trifásico com Rotor do Tipo Gaiola de Esquilo},\n  author={Lopes, Nathã de Souza and Matos, Jadson dos Santos},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2017},\n  type={Trabalho de Conclusão de Curso}\n}"
-  },
-  {
-    "titulo": "Protótipo de um sistema conversor CC-CA para redes elétricas isoladas monofásicas",
-    "tipo": "Projeto de Graduação",
-    "autor": "Nayara Villela de Oliveira",
-    "orientador": "Cleiton Magalhães Freitas",
-    "ano": 2017,
-    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://drive.google.com/file/d/12HIjTkHkmW0BSca7CneRKDAmNGjsCq9l/view",
-    "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{oliveira2017,\n  title={Protótipo de um sistema conversor CC-CA para redes elétricas isoladas monofásicas},\n  author={Oliveira, Nayara Villela de},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2017},\n  type={Trabalho de Conclusão de Curso}\n}"
-  },
-  {
-    "titulo": "Avaliação Metrológica de Analisadores de Qualidade de Energia",
-    "tipo": "Projeto de Graduação",
-    "autor": "Alexandre da Silva Martins, Rodrigo Rodrigues Nascimento Zam",
-    "orientador": "Cleiton Magalhães Freitas",
-    "ano": 2016,
-    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-    "link": "https://drive.google.com/file/d/1Jh2HJg0ekozB6JfuTxB8_jlexLuaiV9g/view",
-    "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{martinszam2016,\n  title={Avaliação Metrológica de Analisadores de Qualidade de Energia},\n  author={Martins, Alexandre da Silva and Zam, Rodrigo Rodrigues Nascimento},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2016},\n  type={Trabalho de Conclusão de Curso}\n}"
-  }
+  // {
+  //   "titulo": "Análise do Efeito da Má Qualidade de Energia no Motor de Indução Trifásico com Rotor do Tipo Gaiola de Esquilo",
+  //   "tipo": "Projeto de Graduação",
+  //   "autor": "Nathã de Souza Lopes, Jadson dos Santos Matos",
+  //   "orientador": "Cleiton Magalhães Freitas",
+  //   "ano": 2017,
+  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+  //   "link": "https://exemplo.com/trabalho.pdf",
+  //   "site": "https://exemplo.com/trabalho",
+  //   "bibtex": "@mastersthesis{lopesmatos2017,\n  title={Análise do Efeito da Má Qualidade de Energia no Motor de Indução Trifásico com Rotor do Tipo Gaiola de Esquilo},\n  author={Lopes, Nathã de Souza and Matos, Jadson dos Santos},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2017},\n  type={Trabalho de Conclusão de Curso}\n}"
+  // },
+  // {
+  //   "titulo": "Protótipo de um sistema conversor CC-CA para redes elétricas isoladas monofásicas",
+  //   "tipo": "Projeto de Graduação",
+  //   "autor": "Nayara Villela de Oliveira",
+  //   "orientador": "Cleiton Magalhães Freitas",
+  //   "ano": 2017,
+  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+  //   "link": "https://drive.google.com/file/d/12HIjTkHkmW0BSca7CneRKDAmNGjsCq9l/view",
+  //   "site": "https://exemplo.com/trabalho",
+  //   "bibtex": "@mastersthesis{oliveira2017,\n  title={Protótipo de um sistema conversor CC-CA para redes elétricas isoladas monofásicas},\n  author={Oliveira, Nayara Villela de},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2017},\n  type={Trabalho de Conclusão de Curso}\n}"
+  // },
+  // {
+  //   "titulo": "Avaliação Metrológica de Analisadores de Qualidade de Energia",
+  //   "tipo": "Projeto de Graduação",
+  //   "autor": "Alexandre da Silva Martins, Rodrigo Rodrigues Nascimento Zam",
+  //   "orientador": "Cleiton Magalhães Freitas",
+  //   "ano": 2016,
+  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+  //   "link": "https://drive.google.com/file/d/1Jh2HJg0ekozB6JfuTxB8_jlexLuaiV9g/view",
+  //   "site": "https://exemplo.com/trabalho",
+  //   "bibtex": "@mastersthesis{martinszam2016,\n  title={Avaliação Metrológica de Analisadores de Qualidade de Energia},\n  author={Martins, Alexandre da Silva and Zam, Rodrigo Rodrigues Nascimento},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2016},\n  type={Trabalho de Conclusão de Curso}\n}"
+  // }
 ];
