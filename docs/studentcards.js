@@ -1,6 +1,6 @@
 // js/cards.js
 
-const trabalhos = [
+const trabalhos = [{
   {
     "titulo": "Estudo de um sistema de geração eólica com uso de máquina de indução de dupla alimentação",
     "tipo": "Projeto de Graduação",
@@ -372,5 +372,5 @@ const trabalhos = [
     "link": "https://drive.google.com/file/d/1Jh2HJg0ekozB6JfuTxB8_jlexLuaiV9g/view",
     "site": "https://exemplo.com/trabalho",
     "bibtex": "@mastersthesis{martinszam2016,\n  title={Avaliação Metrológica de Analisadores de Qualidade de Energia},\n  author={Martins, Alexandre da Silva and Zam, Rodrigo Rodrigues Nascimento},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2016},\n  type={Trabalho de Conclusão de Curso}\n}"
-  }
+  }}
 ];
