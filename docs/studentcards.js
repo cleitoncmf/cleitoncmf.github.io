@@ -229,30 +229,30 @@ const trabalhos = [
     "site": "https://catalogo-redesirius.uerj.br/TerminalWeb/acervo/detalhe/323635",
     "bibtex": "@mastersthesis{silvamarques2020,\n  title={Sistema de Monitoramento e Acionamento Computadorizado de um Motor de Indução},\n  author={Silva, Alexandre Antônio Assis and Marques, Anderson Dursulina},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2020},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
-  // {
-  //   "titulo": "Análise de Falhas de Comutação em Sistemas Multi-Infeed no Regime Transitório Eletromecânico",
-  //   "tipo": "Projeto de Graduação",
-  //   "autor": "Vinicius Gonçalves Lopes",
-  //   "orientador": "Cleiton Magalhães Freitas",
-  //   "ano": 2019,
-  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-  //   "link": "https://drive.google.com/file/d/1MJAC_CdRL8u9vNG-qmPB467fQFGqQI6T/view",
-  //   "site": "https://exemplo.com/trabalho",
-  //   "bibtex": "@mastersthesis{lopes2019,\n  title={Análise de Falhas de Comutação em Sistemas Multi-Infeed no Regime Transitório Eletromecânico},\n  author={Lopes, Vinicius Gonçalves},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
-  // },
-  // {
-  //   "titulo": "Concepção de uma microrrede CC para interface de sistemas de geração fotovoltaica com a rede CA",
-  //   "tipo": "Projeto de Graduação",
-  //   "autor": "Jessica de Andrade Lemos e Victor Hochleitner Neves",
-  //   "orientador": "Cleiton Magalhães Freitas",
-  //   "ano": 2019,
-  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-  //   "link": "https://drive.google.com/file/d/12k8MfiKzqTqW456OAd9CQ2JOi8wwXHqs/view",
-  //   "site": "https://exemplo.com/trabalho",
-  //   "bibtex": "@mastersthesis{lemosneves2019,\n  title={Concepção de uma microrrede CC para interface de sistemas de geração fotovoltaica com a rede CA},\n  author={Lemos, Jessica de Andrade and Neves, Victor Hochleitner},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
-  // },
+  {
+    "titulo": "Análise de Falhas de Comutação em Sistemas Multi-Infeed no Regime Transitório Eletromecânico",
+    "tipo": "Projeto de Graduação",
+    "autor": "Vinicius Gonçalves Lopes",
+    "orientador": "Cleiton Magalhães Freitas",
+    "ano": 2019,
+    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+    "link": "https://drive.google.com/file/d/1MJAC_CdRL8u9vNG-qmPB467fQFGqQI6T/view",
+    "site": "https://exemplo.com/trabalho",
+    "bibtex": "@mastersthesis{lopes2019,\n  title={Análise de Falhas de Comutação em Sistemas Multi-Infeed no Regime Transitório Eletromecânico},\n  author={Lopes, Vinicius Gonçalves},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
+  },
+  {
+    "titulo": "Concepção de uma microrrede CC para interface de sistemas de geração fotovoltaica com a rede CA",
+    "tipo": "Projeto de Graduação",
+    "autor": "Jessica de Andrade Lemos e Victor Hochleitner Neves",
+    "orientador": "Cleiton Magalhães Freitas",
+    "ano": 2019,
+    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+    "link": "https://drive.google.com/file/d/12k8MfiKzqTqW456OAd9CQ2JOi8wwXHqs/view",
+    "site": "https://exemplo.com/trabalho",
+    "bibtex": "@mastersthesis{lemosneves2019,\n  title={Concepção de uma microrrede CC para interface de sistemas de geração fotovoltaica com a rede CA},\n  author={Lemos, Jessica de Andrade and Neves, Victor Hochleitner},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2019},\n  type={Trabalho de Conclusão de Curso}\n}"
+  },
   {
     "titulo": "Emulador Operacional de Unidade Geradora Fotovoltaica",
     "tipo": "Projeto de Graduação",
