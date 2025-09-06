@@ -337,40 +337,40 @@ const trabalhos = [
     "site": "https://exemplo.com/trabalho",
     "bibtex": "@mastersthesis{pontes2018,\n  title={Desenvolvimento de um conversor digital analógico multicanal com interface serial com o computador},\n  author={Pontes, Estephan David da Silva Rezende},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2018},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
-  // {
-  //   "titulo": "Análise do Efeito da Má Qualidade de Energia no Motor de Indução Trifásico com Rotor do Tipo Gaiola de Esquilo",
-  //   "tipo": "Projeto de Graduação",
-  //   "autor": "Nathã de Souza Lopes, Jadson dos Santos Matos",
-  //   "orientador": "Cleiton Magalhães Freitas",
-  //   "ano": 2017,
-  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-  //   "link": "https://exemplo.com/trabalho.pdf",
-  //   "site": "https://exemplo.com/trabalho",
-  //   "bibtex": "@mastersthesis{lopesmatos2017,\n  title={Análise do Efeito da Má Qualidade de Energia no Motor de Indução Trifásico com Rotor do Tipo Gaiola de Esquilo},\n  author={Lopes, Nathã de Souza and Matos, Jadson dos Santos},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2017},\n  type={Trabalho de Conclusão de Curso}\n}"
-  // },
-  // {
-  //   "titulo": "Protótipo de um sistema conversor CC-CA para redes elétricas isoladas monofásicas",
-  //   "tipo": "Projeto de Graduação",
-  //   "autor": "Nayara Villela de Oliveira",
-  //   "orientador": "Cleiton Magalhães Freitas",
-  //   "ano": 2017,
-  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-  //   "link": "https://drive.google.com/file/d/12HIjTkHkmW0BSca7CneRKDAmNGjsCq9l/view",
-  //   "site": "https://exemplo.com/trabalho",
-  //   "bibtex": "@mastersthesis{oliveira2017,\n  title={Protótipo de um sistema conversor CC-CA para redes elétricas isoladas monofásicas},\n  author={Oliveira, Nayara Villela de},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2017},\n  type={Trabalho de Conclusão de Curso}\n}"
-  // },
-  // {
-  //   "titulo": "Avaliação Metrológica de Analisadores de Qualidade de Energia",
-  //   "tipo": "Projeto de Graduação",
-  //   "autor": "Alexandre da Silva Martins, Rodrigo Rodrigues Nascimento Zam",
-  //   "orientador": "Cleiton Magalhães Freitas",
-  //   "ano": 2016,
-  //   "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
-  //   "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
-  //   "link": "https://drive.google.com/file/d/1Jh2HJg0ekozB6JfuTxB8_jlexLuaiV9g/view",
-  //   "site": "https://exemplo.com/trabalho",
-  //   "bibtex": "@mastersthesis{martinszam2016,\n  title={Avaliação Metrológica de Analisadores de Qualidade de Energia},\n  author={Martins, Alexandre da Silva and Zam, Rodrigo Rodrigues Nascimento},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2016},\n  type={Trabalho de Conclusão de Curso}\n}"
-  // }
+  {
+    "titulo": "Análise do Efeito da Má Qualidade de Energia no Motor de Indução Trifásico com Rotor do Tipo Gaiola de Esquilo",
+    "tipo": "Projeto de Graduação",
+    "autor": "Nathã de Souza Lopes, Jadson dos Santos Matos",
+    "orientador": "Cleiton Magalhães Freitas",
+    "ano": 2017,
+    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+    "link": "https://exemplo.com/trabalho.pdf",
+    "site": "https://exemplo.com/trabalho",
+    "bibtex": "@mastersthesis{lopesmatos2017,\n  title={Análise do Efeito da Má Qualidade de Energia no Motor de Indução Trifásico com Rotor do Tipo Gaiola de Esquilo},\n  author={Lopes, Nathã de Souza and Matos, Jadson dos Santos},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2017},\n  type={Trabalho de Conclusão de Curso}\n}"
+  },
+  {
+    "titulo": "Protótipo de um sistema conversor CC-CA para redes elétricas isoladas monofásicas",
+    "tipo": "Projeto de Graduação",
+    "autor": "Nayara Villela de Oliveira",
+    "orientador": "Cleiton Magalhães Freitas",
+    "ano": 2017,
+    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+    "link": "https://drive.google.com/file/d/12HIjTkHkmW0BSca7CneRKDAmNGjsCq9l/view",
+    "site": "https://exemplo.com/trabalho",
+    "bibtex": "@mastersthesis{oliveira2017,\n  title={Protótipo de um sistema conversor CC-CA para redes elétricas isoladas monofásicas},\n  author={Oliveira, Nayara Villela de},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2017},\n  type={Trabalho de Conclusão de Curso}\n}"
+  },
+  {
+    "titulo": "Avaliação Metrológica de Analisadores de Qualidade de Energia",
+    "tipo": "Projeto de Graduação",
+    "autor": "Alexandre da Silva Martins, Rodrigo Rodrigues Nascimento Zam",
+    "orientador": "Cleiton Magalhães Freitas",
+    "ano": 2016,
+    "resumo": "Resumo não disponível. Trabalho de conclusão de curso em Engenharia Elétrica.",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/400px-FullMoon2010.jpg",
+    "link": "https://drive.google.com/file/d/1Jh2HJg0ekozB6JfuTxB8_jlexLuaiV9g/view",
+    "site": "https://exemplo.com/trabalho",
+    "bibtex": "@mastersthesis{martinszam2016,\n  title={Avaliação Metrológica de Analisadores de Qualidade de Energia},\n  author={Martins, Alexandre da Silva and Zam, Rodrigo Rodrigues Nascimento},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2016},\n  type={Trabalho de Conclusão de Curso}\n}"
+  }
 ];
