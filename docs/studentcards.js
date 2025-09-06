@@ -11,7 +11,7 @@ const trabalhos = [
     "imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fronalpstock_big.jpg/400px-Fronalpstock_big.jpg",
     "link": "https://exemplo.com/trabalho.pdf",
     "site": "https://exemplo.com/trabalho",
-    "bibtex": "@mastersthesis{fabrini2025,\n  title={Estudo de um sistema de geração eólica com uso de máquina de indução de dupla alimentação},\n  author={Fabrini, Pedro Igor},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2025},\n  type={Trabalho de Conclusão de Curso}\n}"
+    "bibtex": "@mastersthesis{fabriniTCC2025,\n  title={Estudo de um sistema de geração eólica com uso de máquina de indução de dupla alimentação},\n  author={Fabrini, Pedro Igor},\n  school={Universidade do Estado do Rio de Janeiro},\n  year={2025},\n  type={Trabalho de Conclusão de Curso}\n}"
   },
   {
     "titulo": "Estudo de um sistema de geração fotovoltaica conectado à rede elétrica de média tensão",
